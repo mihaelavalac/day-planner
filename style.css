@@ -38,7 +38,7 @@ textarea{
 }
 /* The row refers includes the hour, task, and save button. The bellow proprieties make the rows to have the height of 70px and to have white borders of 1px dimension between them. */
 .row {
-  height: 70px;
+  height: 75px;
   border-top: 1px solid white;
 }
 /* The save button style properties and attributes are mentioned bellow. */ 
