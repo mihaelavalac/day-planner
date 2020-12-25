@@ -4,6 +4,10 @@ For this project I designed a Work Day Schedule which is very helpful and easy t
 <img  src="img/Work day Schedule.png">
 
 # Structure
+The schedule show the current day in the dd/mm/date format above the schedule area. 
+
+<img src="img/current-date.png">
+
 The schedule have three sections.
 The first section includes the time which represents the work hours (in this case the schedule is from 9AM to 5PM).
 
