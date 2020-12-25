@@ -9,9 +9,9 @@ var plannerHours = [
   "#four",
   "#five",
 ];
-var colors = [
-  "#ff6d6dC", "#cbcbcb","#6dffb6"
-]
+
+var colors = ["#ff6d6dC", "#cbcbcb", "#6dffb6"];
+
 // Set the current day information in the day, month and date format.
 $("#currentDay").text(moment().format("dddd, MMMM Do"));
 var currentTime = moment().format("ha");
@@ -26,3 +26,23 @@ for (var i = 0; i < plannerHours.length; i++) {
 }
 
 //Save the user input (task) in the local storage and display it on the screen each time when the page is refreshed.
+$(".saveBtn").on("click", function () {
+  // get nearby values
+  var input = $(this).siblings(".task").val();
+  console.log(input);
+
+  var hour = $(this).parent().attr("id");
+  console.log(hour);
+
+  localStorage.setItem(hour, input);
+});
+
+$("#nine .task").val(localStorage.getItem("nine"));
+$("#ten .task").val(localStorage.getItem("ten"));
+$("#eleven .task").val(localStorage.getItem("eleven"));
+$("#twelve .task").val(localStorage.getItem("twelve"));
+$("#one .task").val(localStorage.getItem("one"));
+$("#two .task").val(localStorage.getItem("two"));
+$("#three .task").val(localStorage.getItem("three"));
+$("#four .task").val(localStorage.getItem("four"));
+$("#five .task").val(localStorage.getItem("five"));
