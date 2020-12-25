@@ -19,3 +19,7 @@ The second section represents the area where the user writes the necessary to co
 The last section represents the save buttons that react on click and store the information in the local storage.
 
 <img  src="images/save-buttons.png">
+
+
+Also, the time and tasks are differentiated by background color.
+The red background color of the textarea represents the current time, the green background color of the textarea represents the upcoming time, and the gray background color of the textarea represents the past time.   
