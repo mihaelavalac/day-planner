@@ -28,5 +28,9 @@ The red background color of the textarea represents the current time, the green 
 
 <img  src="images/colors-update.png">
 
-# # Deployment link
+# Level of difficulty
+I found this project very interesting because it is something that I created and plan to use it for my daily tasks from now on. This project is one of the easiest and interesting of all my projects.  
+
+
+# Deployment link
 https://mihaelavalac.github.io/day-planner/
